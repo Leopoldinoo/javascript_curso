@@ -10,5 +10,5 @@ for(let i = 1; i <= qtd; i++){
 }
 
 listadecompra.forEach((listadecompra,index) => {
-console.log(`${index + 1}.${listadecompra} `);
+console.log(`${index + 1}.${listadecompra} `)
 });
