@@ -1,4 +1,4 @@
-let nomes = ['Ana', 'Carlos','Maria'];
+let nomes = ['Ana', 'Carlos','Acin'];
 console.log(nomes);
 
 nomes.push('Leopoldino','Paiva');
