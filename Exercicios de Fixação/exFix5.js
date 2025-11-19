@@ -12,9 +12,9 @@ for(let i = 1; i <= qtd; i++){
   lanches.pop();
 
   console.log(lanches);
-  
+
   lanches.pop();
 
-  lanches.forEach((lanches,index)=> {
-  console.table(`${index + 1}.${lanches}`);
+  lanches.forEach((lanches,lista)=> {
+  console.table(`${lista + 1}.${lanches}`);
   });
