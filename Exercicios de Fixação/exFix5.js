@@ -8,8 +8,11 @@ for(let i = 1; i <= qtd; i++){
   lanches.push(lanche);
 }
   console.log(lanches);
+
   lanches.pop();
+
   console.log(lanches);
+  
   lanches.pop();
 
   lanches.forEach((lanches,index)=> {
