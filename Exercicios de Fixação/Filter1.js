@@ -6,8 +6,8 @@ let alunos = [
 ]
 
 let idade15 = alunos.filter(aluno => {
-    let idade = aluno.split("-")[1]
-    return idade === "15"
+    let idade = aluno.split("-")[1];
+    return idade === "15";
 })
 
 console.log(idade15)
