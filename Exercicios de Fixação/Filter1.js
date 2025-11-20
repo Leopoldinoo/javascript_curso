@@ -10,4 +10,4 @@ let idade15 = alunos.filter(aluno => {
     return idade === "15";
 })
 
-console.log(idade15)
+console.log(idade15);
