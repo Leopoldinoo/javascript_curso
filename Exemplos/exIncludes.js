@@ -5,8 +5,11 @@ const filmes = [
   {nome: "Carros", categoria: "Animação"}
 ];
 
-const resultado = filmes.filter(u => u.categoria === "Ação");
+const resultado = filmes.filter(f => f.categoria === "Ação");
 console.table(resultado);
 
-const resul2 = filmes.filter(u => u.nome.includes("Carros"));
+const resul2 = filmes.filter(f => f.nome.includes("Carros"));
 console.log(resul2);
+
+const resultado3 = filmes.filter(f => f.nome.includes("V"));
+console.log(resultado3);
