@@ -13,4 +13,4 @@ const resultado2= amigos.filter(a => a.nome.includes("L"));
 console.log(resultado2);
 
 const resultado3 = amigos.filter(a => a.idade.includes(23));
-console.log(resultado3);
+console.log(resultado3); 
