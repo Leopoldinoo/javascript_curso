@@ -5,5 +5,5 @@ const carros = [
   {modelo: "HB20", marca: "Hyundai"}
 ];
 
-const fiat = carros.filter(a => a.marca.includes("Fiat"));
+const fiat = carros.filter(carro => carro.marca.includes("Fiat"));
 console.log(fiat);
